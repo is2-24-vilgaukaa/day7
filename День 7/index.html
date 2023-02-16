@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>День 7</title>
+<link rel="icon" href="picture/logo.svg">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navMenu">
+<img src="picture/logo.svg"> <br>
+<a href="#">Главная</a>
+<a href="#">О нас</a>
+<a href="#">Акции</a>
+<a href="#">Меню</a>
+</nav>
+
+<br><br>
+
+<table class="table1">
+<tr>
+<td>
+<div class="container_slider">
+<img class="photo_slider" src="picture/img1.jpg">
+<img class="photo_slider" src="picture/img2.png">
+<img class="photo_slider" src="picture/img3.png">
+<img class="photo_slider" src="picture/img4.jpg">
+</div>
+</td>
+<td class="td1">
+<h2>Astrology cafe</h2>
+<p>«Astrology cafe» — уютное и атмосферное кафе в Челябинске.
+В наших заведениях с уютными мягкими залами и дружественной атмосферой приятно проводят время взрослые и дети. 
+У нас вкусные и разнообразные напитки, десерты и завтраки. 
+Каждое блюдо сделано с частичкой волшебства, чтобы ваш день прошел успешно.</p> 
+</td>
+</tr>
+</table>
+
+<div class="menu_cafe">
+<img class = "picture" src ="picture/cat.svg"> 
+<h1>В нашем кафе вы можете попробовать</h1>
+</div>
+
+<div class="menu">
+<br>
+
+<h2>Завтраки</h2>
+<img class = "pictures" src="picture/pic.jpg">
+<img class = "pictures" src="picture/pic2.jpeg">
+<img class = "pictures" src="picture/pic2.jpg">
+<img class = "pictures" src="picture/pic4.jpg">
+<img class = "pictures" src="picture/img1.svg">
+<img class = "pictures" src="picture/img2.svg">
+<img class = "pictures" src="picture/img3.svg">
+<img class = "pictures" src="picture/img4.svg">
+
+<h2>Напитки</h2>
+<img class = "pictures" src="picture/img1.jpg">
+<img class = "pictures" src="picture/imgcoffe1.jpeg">
+<img class = "pictures" src="picture/imgcoffe2.jpeg">
+<img class = "pictures" src="picture/imgcoffe3.jpeg">
+<img class = "pictures" src="picture/img5.svg">
+<img class = "pictures" src="picture/img6.svg">
+<img class = "pictures" src="picture/img7.svg">
+<img class = "pictures" src="picture/img8.svg">
+
+<h2>Десерты</h2>
+<img class = "pictures" src="picture/img.png">
+<img class = "pictures" src="picture/img2.png">
+<img class = "pictures" src="picture/imgfood1.jpg">
+<img class = "pictures" src="picture/img4.jpg">
+<img class = "pictures" src="picture/img9.svg">
+<img class = "pictures" src="picture/img10.svg">
+<img class = "pictures" src="picture/img11.svg">
+<img class = "pictures" src="picture/img12.svg">
+<br><br>
+</div>
+
+<br><br>
+
+<div class="promocode">
+<br>
+<h1>Подождите! Котик предсказывает промокод на скидку!</h1>
+<img class = "picture" src ="picture/cat2.svg"> <br>
+<button class = "but" onclick="promocode()">Получить промокод</button>
+<br><br>
+</div>
+
+<script>
+function promocode() {
+let abc = "abcdefghijklmnopqrstuvwxyz1234567890";
+let rs = "";
+while (rs.length < 6) {
+rs += abc[Math.floor(Math.random() * abc.length)];
+}
+alert (rs);
+}
+</script>
+
+<div class="menu_cafe">
+<br>
+<h1>Вы можете связаться с нами</h1>
+<input type="" name="" value=""><br><br>
+<button class = "but" onclick="thanks()">Отправить письмо котику</button>
+</div>
+
+<script>
+function thanks() {
+alert ("Спасибо за теплые слова! Хорошего вам дня :3");
+}
+</script>
+
+<br><br>
+
+<div class="footer">
+<img class="picture" src="picture/logo.svg"><br>
+<a href="#">Главная</a>
+<a href="#">О нас</a>
+<a href="#">Акции</a>
+<a href="#">Меню</a>  
+<p>Кофе — это всегда хорошая идея</p> 
+<br><br>
+</div>
+
+</body>
+</html>
